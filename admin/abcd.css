@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(0, 0, 56);
+  padding: 5%;
+  margin: 0%;
+  text-align: center;
+  font-size: 16px;
+  color:white;
+}
+
+
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 4;
+ 
+  padding: 10px;
+  
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  
+  color: #555;
+  
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+.sdiv{
+         text-align: center;
+         border: 3px ridge;
+background-color: beige;
+    }
+.navg{
+  float: right;
+  list-style: none;
+  margin-top: 60px;
+}
+.navg li{
+  display: inline-block;
+}
+.navg li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 40px;
+  font-family: poppins;
+  font-size: 16px;
+}
+.navg li a:hover{
+  background: #fff;
+  color: #333;
+}
+.navg a.active{
+background-color: seagreen;
+
+}
+table,th,td{
+  padding: 20px;
+}
+body {
+  font-size: 120%;
+  background: #F0FFFF;
+}
